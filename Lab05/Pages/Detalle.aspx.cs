@@ -7,14 +7,9 @@ using System.Web.UI.WebControls;
 
 namespace Lab05.Pages
 {
-    public partial class Formulario : System.Web.UI.Page
+    public partial class Detalle : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        protected void btnRegistrar_Click(object sender, EventArgs e)
         {
 
         }
