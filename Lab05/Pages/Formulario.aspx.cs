@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Lab05.Classes;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -16,7 +17,15 @@ namespace Lab05.Pages
 
         protected void btnRegistrar_Click(object sender, EventArgs e)
         {
+            InformacionPersonal objInformacionPersonal = new InformacionPersonal();
+            objInformacionPersonal.nombre = txtNombreCompleto.Text;
+            objInformacionPersonal.email = txtEmail.Text;
+            objInformacionPersonal.nacimiento = DateTime.Parse(txtFechaNaci.Text);
 
+            Session["objeto"] = objInformacionPersonal;
+
+            Response.Redirect("~/Pages/Detalle.aspx");
         }
+
     }
 }

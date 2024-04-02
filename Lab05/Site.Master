@@ -49,11 +49,15 @@
                         <li class="nav-item"><a class="nav-link" runat="server" href="~/">Home</a></li>
                         <li class="nav-item"><a class="nav-link" runat="server" href="~/About">About</a></li>
                         <li class="nav-item"><a class="nav-link" runat="server" href="~/Contact">Contact</a></li>
+                        <li>
+                            <asp:LinkButton ID="lnkCerrarSesion" runat="server" Visible="false" OnClick="lnkCerrarSesion_Click">InformacionPersonal</asp:LinkButton>
+                        </li>
                     </ul>
                 </div>
             </div>
         </nav>
         <div class="container body-content">
+            <asp:Label ID="lblNombre" runat="server" Text=""></asp:Label>
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
             <hr />

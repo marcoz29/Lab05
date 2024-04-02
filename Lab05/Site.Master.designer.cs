@@ -15,13 +15,22 @@ namespace Lab05
     {
 
         /// <summary>
-        /// HeadContent control.
+        /// lnkCerrarSesion control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder HeadContent;
+        protected global::System.Web.UI.WebControls.LinkButton lnkCerrarSesion;
+
+        /// <summary>
+        /// lblNombre control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblNombre;
 
         /// <summary>
         /// MainContent control.
